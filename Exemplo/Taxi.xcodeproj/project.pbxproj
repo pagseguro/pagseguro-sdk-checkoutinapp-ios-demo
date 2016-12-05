@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311490AA1DF2010E00134585 /* PSWalletLib-Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 311490A81DF2010E00134585 /* PSWalletLib-Resources.bundle */; };
+		311490AB1DF2010E00134585 /* PSWalletLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311490A91DF2010E00134585 /* PSWalletLib.framework */; };
+		B18CBA221D3415AB00D89450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18CBA211D3415AB00D89450 /* main.m */; };
+		B18CBA251D3415AB00D89450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18CBA241D3415AB00D89450 /* AppDelegate.m */; };
+		B18CBA281D3415AB00D89450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18CBA271D3415AB00D89450 /* ViewController.m */; };
+		B18CBA2B1D3415AB00D89450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18CBA291D3415AB00D89450 /* Main.storyboard */; };
+		B18CBA2D1D3415AB00D89450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18CBA2C1D3415AB00D89450 /* Assets.xcassets */; };
+		B18CBA301D3415AB00D89450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18CBA2E1D3415AB00D89450 /* LaunchScreen.storyboard */; };
+		B1F27A221D34262200B595FC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F27A211D34262200B595FC /* Accelerate.framework */; };
+		B1F27A241D34262A00B595FC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F27A231D34262A00B595FC /* AudioToolbox.framework */; };
+		B1F27A261D34264F00B595FC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F27A251D34264F00B595FC /* CoreMedia.framework */; };
+		B1F27A281D34265800B595FC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F27A271D34265800B595FC /* MobileCoreServices.framework */; };
+		B1F27A2A1D34266000B595FC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F27A291D34266000B595FC /* SystemConfiguration.framework */; };
+		B1F27A2C1D34275300B595FC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F27A2B1D34275300B595FC /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		311490A81DF2010E00134585 /* PSWalletLib-Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "PSWalletLib-Resources.bundle"; path = "../Framework/PSWalletLib-Resources.bundle"; sourceTree = "<group>"; };
+		311490A91DF2010E00134585 /* PSWalletLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSWalletLib.framework; path = ../Framework/PSWalletLib.framework; sourceTree = "<group>"; };
+		B18CBA1D1D3415AB00D89450 /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18CBA211D3415AB00D89450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B18CBA231D3415AB00D89450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B18CBA241D3415AB00D89450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B18CBA261D3415AB00D89450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B18CBA271D3415AB00D89450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B18CBA2A1D3415AB00D89450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B18CBA2C1D3415AB00D89450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B18CBA2F1D3415AB00D89450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B18CBA311D3415AB00D89450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F27A211D34262200B595FC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B1F27A231D34262A00B595FC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B1F27A251D34264F00B595FC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B1F27A271D34265800B595FC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B1F27A291D34266000B595FC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B1F27A2B1D34275300B595FC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B1F27A2F1D345FEE00B595FC /* PSWalletLib-Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "PSWalletLib-Resources.bundle"; sourceTree = "<group>"; };
+		B1F27A301D345FEE00B595FC /* PSWalletLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PSWalletLib.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18CBA1A1D3415AB00D89450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F27A221D34262200B595FC /* Accelerate.framework in Frameworks */,
+				B1F27A241D34262A00B595FC /* AudioToolbox.framework in Frameworks */,
+				B1F27A2C1D34275300B595FC /* AVFoundation.framework in Frameworks */,
+				B1F27A261D34264F00B595FC /* CoreMedia.framework in Frameworks */,
+				B1F27A281D34265800B595FC /* MobileCoreServices.framework in Frameworks */,
+				B1F27A2A1D34266000B595FC /* SystemConfiguration.framework in Frameworks */,
+				311490AB1DF2010E00134585 /* PSWalletLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18CBA141D3415AB00D89450 = {
+			isa = PBXGroup;
+			children = (
+				311490A81DF2010E00134585 /* PSWalletLib-Resources.bundle */,
+				311490A91DF2010E00134585 /* PSWalletLib.framework */,
+				B18CBA1F1D3415AB00D89450 /* Taxi */,
+				B1F27A341D34629E00B595FC /* Frameworks */,
+				B18CBA1E1D3415AB00D89450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18CBA1E1D3415AB00D89450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18CBA1D1D3415AB00D89450 /* Taxi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18CBA1F1D3415AB00D89450 /* Taxi */ = {
+			isa = PBXGroup;
+			children = (
+				B1F27A2E1D345FEE00B595FC /* Framework */,
+				B18CBA231D3415AB00D89450 /* AppDelegate.h */,
+				B18CBA241D3415AB00D89450 /* AppDelegate.m */,
+				B18CBA261D3415AB00D89450 /* ViewController.h */,
+				B18CBA271D3415AB00D89450 /* ViewController.m */,
+				B18CBA291D3415AB00D89450 /* Main.storyboard */,
+				B18CBA2C1D3415AB00D89450 /* Assets.xcassets */,
+				B18CBA2E1D3415AB00D89450 /* LaunchScreen.storyboard */,
+				B18CBA311D3415AB00D89450 /* Info.plist */,
+				B18CBA201D3415AB00D89450 /* Supporting Files */,
+			);
+			path = Taxi;
+			sourceTree = "<group>";
+		};
+		B18CBA201D3415AB00D89450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18CBA211D3415AB00D89450 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1F27A2E1D345FEE00B595FC /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B1F27A2F1D345FEE00B595FC /* PSWalletLib-Resources.bundle */,
+				B1F27A301D345FEE00B595FC /* PSWalletLib.framework */,
+			);
+			name = Framework;
+			path = ../../Framework;
+			sourceTree = "<group>";
+		};
+		B1F27A341D34629E00B595FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1F27A2B1D34275300B595FC /* AVFoundation.framework */,
+				B1F27A291D34266000B595FC /* SystemConfiguration.framework */,
+				B1F27A271D34265800B595FC /* MobileCoreServices.framework */,
+				B1F27A251D34264F00B595FC /* CoreMedia.framework */,
+				B1F27A231D34262A00B595FC /* AudioToolbox.framework */,
+				B1F27A211D34262200B595FC /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18CBA1C1D3415AB00D89450 /* Taxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18CBA341D3415AB00D89450 /* Build configuration list for PBXNativeTarget "Taxi" */;
+			buildPhases = (
+				B18CBA191D3415AB00D89450 /* Sources */,
+				B18CBA1A1D3415AB00D89450 /* Frameworks */,
+				B18CBA1B1D3415AB00D89450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taxi;
+			productName = Taxi;
+			productReference = B18CBA1D1D3415AB00D89450 /* Taxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18CBA151D3415AB00D89450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = PagSeguro;
+				TargetAttributes = {
+					B18CBA1C1D3415AB00D89450 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H38JKR6Z26;
+					};
+				};
+			};
+			buildConfigurationList = B18CBA181D3415AB00D89450 /* Build configuration list for PBXProject "Taxi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18CBA141D3415AB00D89450;
+			productRefGroup = B18CBA1E1D3415AB00D89450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18CBA1C1D3415AB00D89450 /* Taxi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18CBA1B1D3415AB00D89450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18CBA301D3415AB00D89450 /* LaunchScreen.storyboard in Resources */,
+				B18CBA2D1D3415AB00D89450 /* Assets.xcassets in Resources */,
+				B18CBA2B1D3415AB00D89450 /* Main.storyboard in Resources */,
+				311490AA1DF2010E00134585 /* PSWalletLib-Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18CBA191D3415AB00D89450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18CBA281D3415AB00D89450 /* ViewController.m in Sources */,
+				B18CBA251D3415AB00D89450 /* AppDelegate.m in Sources */,
+				B18CBA221D3415AB00D89450 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B18CBA291D3415AB00D89450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18CBA2A1D3415AB00D89450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B18CBA2E1D3415AB00D89450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18CBA2F1D3415AB00D89450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18CBA321D3415AB00D89450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B18CBA331D3415AB00D89450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18CBA351D3415AB00D89450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H38JKR6Z26;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Framework";
+				INFOPLIST_FILE = Taxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.pagseguro.Taxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B18CBA361D3415AB00D89450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H38JKR6Z26;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Framework";
+				INFOPLIST_FILE = Taxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.pagseguro.Taxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18CBA181D3415AB00D89450 /* Build configuration list for PBXProject "Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18CBA321D3415AB00D89450 /* Debug */,
+				B18CBA331D3415AB00D89450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18CBA341D3415AB00D89450 /* Build configuration list for PBXNativeTarget "Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18CBA351D3415AB00D89450 /* Debug */,
+				B18CBA361D3415AB00D89450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B18CBA151D3415AB00D89450 /* Project object */;
+}
