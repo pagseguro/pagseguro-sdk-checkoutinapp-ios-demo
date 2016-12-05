@@ -33,7 +33,7 @@ Em `Build Settings`, `Other Linker Flags` adicione:
 
 ## Configuração
 
-Obesrvação: Por favor, enviar e-mail para: checkoutinapp@uol.com.br , informando seu e-mail vendedor para que possamos liberar a funcionalidade para seu usuário.
+Observação: Por favor, enviar e-mail para: checkoutinapp@uol.com.br , informando seu e-mail vendedor para que possamos liberar a funcionalidade para seu usuário.
 
 Para utilizar a biblioteca, primeiro você deve utilizar a classe `AuthorizationLib` para configurar suas informações de acesso:
 
