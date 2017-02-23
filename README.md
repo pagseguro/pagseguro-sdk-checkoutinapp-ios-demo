@@ -87,6 +87,9 @@ Adicionar a liberação para segurança de tráfego de dados
 <key>NSAllowsArbitraryLoads</key>
 <true/>
 </dict>
+<key>NSCameraUsageDescription</key>
+<string>Camera usage description</string>
+</dict>
 ```
 
 * **
