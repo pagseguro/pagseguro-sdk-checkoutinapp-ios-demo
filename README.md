@@ -40,7 +40,20 @@ Antes de fazer uso da biblioteca é importante que o desenvolvedor realize algun
 
 * **
 
--Observação: Por favor, enviar e-mail para: checkoutinapp@uol.com.br , informando seu e-mail vendedor para que possamos liberar a funcionalidade para seu usuário.
+**Para utilizar o Checkout in App**
+
+O Checkout in App está operando em fase de piloto. Para fazer parte deste piloto você precisa seguir alguns passos:
+
+- Enviar um e-mail para checkoutinapp@pagseguro.com.br informando um telefone de contato e o e-mail da sua conta PagSeguro.  
+Se você for selecionado para o piloto, nossa equipe entrará em contato com você para obter mais informações e liberar a funcionalidade para a sua conta;
+- Implementar o Checkout in App em sua aplicação;
+- Encaminhar os feedbacks para a nossa equipe. Nesta fase do projeto a sua opinião será extremamente importante.
+
+A equipe do PagSeguro dará todo o suporte para sua integração do Checkout in App com a sua aplicação.
+
+Observação: O PagSeguro também dispõe da solução de Checkout in App Transparente, que não exige que o cliente realize login ou crie uma conta no PagSeguro.
+
+Conheça mais sobre a versão Transparente, acessando a documentação do [iOS](https://github.com/pagseguro/ios-checkout-transparent-in-app) e [Android](https://github.com/pagseguro/android-checkout-transparent-in-app)
 
 * **
 
